@@ -1,0 +1,49 @@
+# macOS / filesystem metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Office lock/temp files
+~$*.doc
+~$*.docx
+~$*
+.~lock.*#
+*.wbk
+*.tmp
+*.temp
+
+# Local working files
+tmp/
+output/
+previews/
+
+# Multisim sources are not kept in this repository
+*.ms14
+
+# Python / runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+.uv-cache/
+.env
+.env.*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+*.bak
